@@ -1,0 +1,62 @@
+.new_row_img_maincontainer
+{
+padding: 10px;
+border-bottom: 1px solid gray;
+}
+
+ul.widget-images-list{ padding:0;}
+ul.widget-images-list li.editthisimage {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    max-width: 146px;
+}
+ul.widget-images-list li.editthisimage img{ max-width:100%; height:auto;}
+.image-container .add-image-box {
+    clear: both;
+    display: block;
+    padding-top: 15px;
+}
+ul.widget-images-list li.editthisimage .image_container {
+    border: 1px solid #efefef;
+    box-sizing: padding-box;
+    display: block;
+    height: 120px;
+    margin-bottom: 10px;
+    min-height: 120px;
+    position: relative;
+    width: 120px;
+}
+ul.widget-images-list li.editthisimage .image_container img {
+    bottom: -999em;
+    left: -999em;
+    margin: auto;
+    max-height: 90%;
+    max-width: 90%;
+    position: absolute;
+    right: -999em;
+    top: -999em;
+}
+.action_container a {
+    color: #999;
+    font-family: open sans;
+    font-size: 12px;
+    text-decoration: none;
+}
+.action_container a.edit-image{ float:left; text-align:left;}
+.action_container a.remove-image{ float:right; text-align:right;}
+.image-container h3,
+.upload_image_section{ padding-left:0 !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
